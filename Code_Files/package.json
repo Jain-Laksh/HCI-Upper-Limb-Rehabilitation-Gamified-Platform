@@ -1,0 +1,32 @@
+{
+  "name": "day-shift-painter",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Age-respectful upper-limb tele-rehabilitation game (CS435 Hi-Fi prototype)",
+  "scripts": {
+    "setup:assets": "node scripts/copy-assets.mjs",
+    "postinstall": "node scripts/copy-assets.mjs",
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc -b --noEmit",
+    "test": "esbuild tests/algorithms.test.ts --bundle --platform=node --format=esm --outfile=dist-test/alg.mjs --log-level=warning --define:import.meta.env.BASE_URL='\"./\"' && node dist-test/alg.mjs"
+  },
+  "dependencies": {
+    "@fontsource/atkinson-hyperlegible": "^5.3.0",
+    "@mediapipe/tasks-vision": "^0.10.14",
+    "framer-motion": "^11.11.17",
+    "lucide-react": "^0.460.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "zustand": "^4.5.5"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.11"
+  }
+}

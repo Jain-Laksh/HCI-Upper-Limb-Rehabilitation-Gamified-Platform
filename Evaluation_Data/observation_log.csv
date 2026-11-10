@@ -1,0 +1,1 @@
+participant_id,age_band,group,task_id,completed(Y/N/assisted),time_s,errors_dwell_misselect,tracking_losses,stroke_resets,help_requests,seq_1to7,observer_notes

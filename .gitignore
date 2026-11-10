@@ -1,0 +1,46 @@
+# ---- AI assistant files (never commit) ----
+.claude/
+.claude*
+CLAUDE.md
+CLAUDE.local.md
+**/.claude/
+**/CLAUDE.md
+
+# ---- Not part of the submission ----
+# Previous assignment report and the course brief
+CS435_Assignment2.pdf
+Assignment 3 Instructions.pdf
+# Report sources (LaTeX, HTML, build scripts) and planning notes; only Report.pdf is submitted
+Report/
+REPORT_OUTLINE.md
+# Sample exercise videos (too large for GitHub; shared on Google Drive, link in README)
+sample_videos/
+*.mp4
+!Demo_Video.mp4
+# Leftover helper script from building the report
+Code_Files/.build_report.mjs
+
+# ---- Node / build output (recreated by npm install / npm run build) ----
+node_modules/
+Code_Files/dist/
+Code_Files/dist-test/
+*.tsbuildinfo
+# MediaPipe WASM runtime: copied from node_modules on `npm install`
+Code_Files/public/wasm/
+
+# ---- Logs, caches, editor and OS files ----
+*.log
+npm-debug.log*
+.vite/
+.cache/
+.env
+.env.*
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+~$*
+
+# Kept on purpose: Code_Files/public/models/*.task (pose models, needed to run offline),
+# Report.pdf, Demo_Video.mp4, Evaluation_Data/.

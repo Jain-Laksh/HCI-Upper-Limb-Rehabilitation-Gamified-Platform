@@ -1,0 +1,31 @@
+# Day Shift - requirements
+#
+# This is a JavaScript (Node.js) web app, not a Python project, so there is nothing to
+# `pip install`. The npm packages below are installed automatically from package.json by
+#     cd Code_Files
+#     npm install
+# The versions are the ones the prototype was built and tested with (see package-lock.json).
+
+# ---- System ----
+Node.js >= 18          # tested with Node 24.20, npm 11.19
+npm >= 9               # comes with Node.js
+Google Chrome or Microsoft Edge (recent)   # voice commands need Chrome/Edge; the rest also runs in Firefox
+Webcam                 # built-in laptop camera is enough
+Internet               # only for `npm install` and for voice commands; the game itself runs offline
+
+# ---- Runtime npm packages (dependencies) ----
+react==18.3.1
+react-dom==18.3.1
+@mediapipe/tasks-vision==0.10.14       # pose estimation (models bundled in public/models)
+framer-motion==11.11.17
+lucide-react==0.460.0
+zustand==4.5.5
+@fontsource/atkinson-hyperlegible==5.3.0
+
+# ---- Development npm packages (devDependencies) ----
+vite==5.4.11
+@vitejs/plugin-react==4.3.4
+typescript==5.6.3
+@types/react==18.3.12
+@types/react-dom==18.3.1
+# esbuild 0.21.5 is used by `npm test`; it is installed together with vite.
