@@ -4,7 +4,7 @@ CS 435 HCI Course Project, Assignment 3 (High-Fidelity Prototype), **Group 1**, 
 
 **Team:** Akshat A. Nishad, Rudra P. Singh, Laksh Jain, Harshil H Shah
 
-**Links:** [Report](REPORT_LINK) · [Demo video](DEMO_VIDEO_LINK) · [Sample exercise videos](https://drive.google.com/drive/folders/1zNrh0UHeJPDhy7wdvKA5KDEEcO0iknv5?usp=sharing)
+**Links:** [Report](https://github.com/Jain-Laksh/HCI-Upper-Limb-Rehabilitation-Gamified-Platform/blob/main/Report.pdf) · [Demo video](https://drive.google.com/file/d/1J38DBpJ5eY5m0iKNOVhc_1249CBgIX_T/view?usp=sharing) · [Sample exercise videos](https://drive.google.com/drive/folders/1zNrh0UHeJPDhy7wdvKA5KDEEcO0iknv5?usp=sharing)
 
 > Research prototype. Not a medical device. Stop if you feel pain.
 
@@ -54,10 +54,11 @@ React 18, TypeScript and Vite · MediaPipe Pose Landmarker (models bundled) · z
 
 ```
 Code_Files/        the app (src/, tests/, public/models/, package.json, requirements.txt)
-Evaluation_Data/   consent form, moderator script, questionnaire (.md and .pdf), result sheets
+Evaluation_Data/   consent form, Google Form (PDF) and its anonymised responses (CSV)
 Report.pdf         project report
-Demo_Video.mp4     demo video
 ```
+
+The demo video is on Google Drive (link above) because it is too large for GitHub.
 
 ## Privacy
 
