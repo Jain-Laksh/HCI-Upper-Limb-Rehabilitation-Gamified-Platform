@@ -4,7 +4,7 @@ CS 435 HCI Course Project, Assignment 3 (High-Fidelity Prototype), **Group 1**, 
 
 **Team:** Akshat A. Nishad, Rudra P. Singh, Laksh Jain, Harshil H Shah
 
-**Links:** [Report](https://github.com/Jain-Laksh/HCI-Upper-Limb-Rehabilitation-Gamified-Platform/blob/main/Report.pdf) · [Demo video](https://drive.google.com/file/d/1J38DBpJ5eY5m0iKNOVhc_1249CBgIX_T/view?usp=sharing) · [Sample exercise videos](https://drive.google.com/drive/folders/1zNrh0UHeJPDhy7wdvKA5KDEEcO0iknv5?usp=sharing)
+**Links:** [Live demo](https://jain-laksh.github.io/HCI-Upper-Limb-Rehabilitation-Gamified-Platform/) · [Report](https://github.com/Jain-Laksh/HCI-Upper-Limb-Rehabilitation-Gamified-Platform/blob/main/Report.pdf) · [Demo video](https://drive.google.com/file/d/1J38DBpJ5eY5m0iKNOVhc_1249CBgIX_T/view?usp=sharing) · [Sample exercise videos](https://drive.google.com/drive/folders/1zNrh0UHeJPDhy7wdvKA5KDEEcO0iknv5?usp=sharing)
 
 > Research prototype. Not a medical device. Stop if you feel pain.
 
